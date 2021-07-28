@@ -40,7 +40,72 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2vh;
+  margin-top: 8vh;
   background-color: aliceblue;
-  width:50%;
+  width:70%;
+  border-radius: 25px;
+}
+
+.form {
+  margin: 2vh;
+  padding: 5px;
+  text-align: center;
+}
+
+input[type=text],input[type=email],textarea {
+  width:90%;
+  padding:12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.deal {
+  font-size: 3.5vh;
+  color: red;
+  font-weight: bolder;
+}
+
+.images {
+ border-radius: 25px;
+ max-width: 500px;
+ height: auto;
+ margin-top:6px;
+ margin-bottom: 16px;
+}
+
+.submit {
+  min-height: 40px;
+  min-width: 80px;
+  background-color: rgb(14, 201, 14);
+  transition: .5s ease-in-out;
+  border-radius: 25px;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background-color: greenyellow;
+  transform: scale(1.1);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 7vw;
+  row-gap: 3vh;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.menu {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 25px;
 }
