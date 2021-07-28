@@ -1,0 +1,46 @@
+body {
+  background-image: url('./vecteezy_green-background_rh1020.jpg');
+  background-size: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar {
+  display:flex;
+  justify-content: center;
+  width:100%;
+  background-color: lightgreen;
+  overflow: hidden;
+  top:0;
+  position: fixed;
+}
+
+.navBar a {
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  color:whitesmoke;
+}
+
+.navBar a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  background-color: aliceblue;
+  width:50%;
+}
